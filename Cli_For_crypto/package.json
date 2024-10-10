@@ -1,0 +1,23 @@
+{
+  "name": "cli_for_crypto",
+  "version": "1.0.0",
+  "description": "Command line interface for apis crypto",
+  "main": "index.js",
+  "bin": {
+    "cli_for_crypto": "bin/index-key.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hassan Shehzad",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^12.1.0",
+    "configstore": "^7.0.0",
+    "inquirer": "^12.0.0"
+  }
+}
